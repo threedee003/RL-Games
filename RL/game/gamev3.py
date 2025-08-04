@@ -223,7 +223,7 @@ if __name__ == "__main__":
         env.render()
 
         if done:
-            print("✅ Target Reached. Resetting...")
+            print("Target Reached. Resetting...")
             env.reset()
 
     env.close()
