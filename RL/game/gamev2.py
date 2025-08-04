@@ -163,7 +163,7 @@ if __name__ == "__main__":
         # print(f"Reward: {reward:.2f}")
 
         if done:
-            print("✅ Target Reached. Resetting...")
+            print("Target Reached. Resetting...")
             env.reset()
 
     env.close()
